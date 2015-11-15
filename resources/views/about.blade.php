@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-hello
-</body>
-</html>
+@extends('layout')
+@section('content')
+  <h1 class="title">我的名字是{{$first}} ,我姓{{$last}}</h1>
+@stop

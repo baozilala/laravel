@@ -16,9 +16,17 @@ class SitesController extends Controller
      */
     public function index()
     {
-        return view('about');
+        return view('welcome');
     }
 
+
+    public function about()
+    {
+      $name=[];
+      $name['first']='kuikui';
+      $name['last']='Feng';
+      return view('about',$name);
+    }
     /**
      * Show the form for creating a new resource.
      *

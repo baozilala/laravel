@@ -12,3 +12,5 @@
 */
 
 Route::get('/', "SitesController@index");
+
+Route::get('/about', "SitesController@about");
