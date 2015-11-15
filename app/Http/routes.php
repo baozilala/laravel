@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', SitesController@index);
+Route::get('/', "SitesController@index");
